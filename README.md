@@ -1,8 +1,11 @@
-# React + Vite
+## Mini-Project using React Redux 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src='docs/Screenshot 2023-12-15 at 19.22.23.png' width="700px">
 
-Currently, two official plugins are available:
+<img src='docs/Screenshot 2023-12-15 at 19.22.51.png' width="700px">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src='docs/Screenshot 2023-12-15 at 19.22.57.png' width="700px">
+
+<img src='docs/Screenshot 2023-12-15 at 19.23.01.png' width="700px">
+
+<img src='docs/Screenshot 2023-12-15 at 19.23.04.png' width="700px">
