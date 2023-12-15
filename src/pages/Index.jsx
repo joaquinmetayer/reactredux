@@ -10,7 +10,6 @@ export const Index = () => {
   const passwordField = useRef(null);
 
   const navigate = useNavigate();
-
   const dispatch = useDispatch();
 
   const handleSubmit = e => {
@@ -23,7 +22,7 @@ export const Index = () => {
 
         if (userToLog) {
           if (userToLog.password === passwordField.current.value) {
-            console.log("Credenciales válidas");
+            console.log("Valid credentials");
             dispatch(setUser({
               email: userToLog.email,
               fullName: `${userToLog.first_name} ${userToLog.last_name}`,
@@ -35,9 +34,9 @@ export const Index = () => {
       })
   }
   return (
-    <div className="row justify-content-center">
+    <div className="row ">
       <div className="col-6">
-        <h2 className="mb-4">LOGIN FORM</h2>
+        <h2 className="mb-4">Login form</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label className="form-label">Email address</label>

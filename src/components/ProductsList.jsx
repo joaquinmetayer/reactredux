@@ -17,7 +17,7 @@ export const ProductsList = ({ products }) => {
 
   return (
     <>
-      <h2>Listado de productos</h2>
+      <h2>Products</h2>
       <div className="row">
         {
           products.map(product => {
