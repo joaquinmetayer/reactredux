@@ -22,18 +22,18 @@ export const App = () => {
 
   return (
     <div className="container">
-      <div className="d-flex py-4">
+      <div className="d-flex py-4 pb-2">
         {!user.fullName ? (
-          <Link className="btn btn-info mx-2" to="/">
+          <Link className="btn btn-info" to="/">
             Login
           </Link>
         ) : null}
         {user.fullName ? (
           <span>
-            <Link className="btn btn-info mx-2" to="/home">
+            <Link className="btn btn-info" to="/home">
               Home
             </Link>
-            <button className="btn btn-primary" onClick={handleLogout}>
+            <button className="btn btn-primary  mx-4" onClick={handleLogout}>
               Log out
             </button>
           </span>
