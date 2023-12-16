@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* Proporcionar el store de Redux a la aplicación utilizando el componente 'Provider' */}
     <Provider store={store}>
       <BrowserRouter>
         <App />
